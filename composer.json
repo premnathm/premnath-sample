@@ -1,0 +1,26 @@
+{
+    "name": "premnath/sample",
+    "description": "This is sample programm",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "premnathm",
+            "email": "premnathm@dckap.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Premnath\\Sample\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Premnath\\Sample\\SampleServiceProvider"
+            ]
+        }
+    }
+}
