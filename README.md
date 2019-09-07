@@ -1,5 +1,12 @@
 # premnath-sample
 
+Install :
+
+composer require premnath-sample:dev-master
+
+
+
+
 Package
 -------
 
